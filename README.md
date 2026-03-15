@@ -20,5 +20,30 @@ In 2026, privacy and local control are everything. AsymOS lives on your machine,
 ## 🤝 Join the Movement
 I am building this in public. Whether you are a pro dev or just starting, your contributions are welcome.
 
+## 📦 Dependencies
+
+Install the required Python packages:
+
+```pip install pyautogui pillow requests ollama```
+
+Download the LLaMA 3.2 Vision model (requires ~7.8GB):
+
+```ollama pull llama3.2-vision```
+
+⚠️ Note: Ensure you have at least 8GB of free storage for the model.
+
+## 🚀 Running the Project
+
+Start the agent with:
+
+```python asymos.py```
+
+## Next Steps
+
+- Add coordinates for the cursor
+- Add memory
+- Task prompt so the agent can do work
+- External vision API or smaller supported model
+
 ---
 **Visionary Behind the Project:** [Asym](https://x.com/Asym_Alwali)
